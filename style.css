@@ -1,0 +1,54 @@
+.body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.container {
+    width: 420px;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 20px;
+    background: #daade6;
+    box-shadow: 20px 20px 60px #ae8ab8,
+        -20px -20px 60px #ffd0ff;
+}
+
+.input {
+    width: 400px;
+    margin: 15px 15px;
+}
+
+.box {
+    width: 250px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    text-align: center;
+    background: #ecfa6e;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+
+
+}
+
+.button{
+    margin:7px;
+    font-size:20px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    position: relative;
+    border-radius: 7px;
+    background:#ecfa6e;
+    color: #141414;
+    border: none;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: #141414;
+    color:#ecfa6e ;
+    box-shadow: -20px -20px 60px rgb(99, 99, 185),
+    10px 0px 30px  rgb(99, 99, 185);
+}
+
